@@ -35,8 +35,7 @@ namespace AssignmentSession01C_Advanced
         }
         static void Main(string[] args)
         {
-            string str = "mmo";
-            Console.WriteLine(FindFirstNotChar(str));
+
             #region Question01
             //Create a generic Range<T> class that represents a range of values from a minimum value to a maximum value.
             //The range should support basic operations such as checking if a value is within the range and determining the length of the range.
@@ -114,7 +113,8 @@ namespace AssignmentSession01C_Advanced
             #region Question 05
             //Given a string, find the first non-repeated character in it and return its 
             //index.If there is no such character, return -1.Hint you can use dictionary
-            // Mohamed
+            string str = "mmo";
+            Console.WriteLine(FindFirstNotChar(str));
             #endregion
         }
     }
